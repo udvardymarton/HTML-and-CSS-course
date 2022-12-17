@@ -1,0 +1,58 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+    SPACING SYSTEM (px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+    Line weights:
+
+    Line heights:
+    Default: 1;
+
+--- 02 COLORS   
+    MAIN COLOR: #e67e22
+    GREY COLOR: #555
+    Tints:
+    Shades
+    Accents
+
+    Sites:
+    - unsplash
+    - uifaces
+
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+
+--- 07 WHITESPACE
+
+    FONT SIZE SYSTEM (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+    
+    */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /* 10 px / 16 px = 0.625 = 62.5%*/
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.test {
+  /* width: 1000px; */
+  max-width: 50rem; /* 1 rem is based on the font-size. 1 rem = the selected font-size */
+  background-color: red;
+  padding: 4rem;
+  font-size: 2rem;
+  color: #fff;
+}
